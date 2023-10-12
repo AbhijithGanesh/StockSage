@@ -23,7 +23,7 @@ This project aims to predict the stock price of Apple Inc. (AAPL) using data fro
 - Clone the repository
 
 ```bash
-git clone 
+git clone https://github.com/AbhijithGanesh/StockSage.git
 ```
 
 - Set up your environment:
