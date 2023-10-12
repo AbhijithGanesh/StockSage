@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: 'postgres'
+    container_name: 'pg_abhijith'
+    ports:
+      - '5432:5432'
+    env_file:
+      - ./postgres/.env
+  
+  grafana:
+    image: 'grafana/grafana'
+    container_name: 'grafana-abhijith'
+    volumes:
+      - ./grafana/provisioning.yaml:/etc/grafana/provisioning/datasources/provisioning.yaml
+      - ./grafana/grafana.ini:/etc/grafana/grafana.ini
+    ports:
+      - '3001:3000'
