@@ -97,3 +97,7 @@ uvicorn app:app
 ## License
 
 This project is licensed under the [GPL](.LICENSE). Feel free to re-use it😉
+
+## Sample Visualization
+![image](https://github.com/AbhijithGanesh/StockSage/assets/67182544/d73bd837-49f9-46e0-b6f6-c0bb1f6bb8b7)
+
